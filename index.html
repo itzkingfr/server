@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redirecting to Discord...</title>
+    <!--
+        This meta tag automatically redirects the user to Discord after 0 seconds.
+        It serves as a fallback in case JavaScript is disabled or fails.
+    -->
+    <meta http-equiv="refresh" content="0;url=https://www.google.com">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Apply Inter font and basic styling to the body */
+        body {
+            font-family: "Inter", sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-color: #f0f2f5; /* Light gray background */
+            margin: 0;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+    </style>
+    <script>
+        // Use JavaScript for immediate redirection to ensure the fastest possible redirect.
+        // This script will execute as soon as the head is parsed, often before the
+        // meta refresh tag is fully processed by some browsers, leading to a quicker feel.
+        window.location.replace("https://www.discord.gg/6SaHX5TUNY");
+    </script>
+</head>
+<body class="bg-gray-100 flex items-center justify-center min-h-screen">
+    <div class="bg-white p-8 rounded-lg shadow-lg text-center max-w-sm w-full mx-auto">
+        <h1 class="text-2xl font-bold text-gray-800 mb-4">Redirecting...</h1>
+        <p class="text-gray-600 mb-6">If you are not redirected automatically, please click the link below:</p>
+        <a href="https://www.google.com" class="inline-block bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded-md transition duration-300 ease-in-out shadow-md">
+            Go to the Discord Server
+        </a>
+    </div>
+</body>
+</html>
